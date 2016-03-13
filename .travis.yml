@@ -32,5 +32,5 @@ deploy:
     - "$TRAVIS_BUILD_DIR/bin/${file_name_integer}"
   skip_cleanup: true
   on:
-    tags: true
-    repo: nodemcu/nodemcu-firmware
+    tags: false
+    repo: unrelatedlabs/nodemcu-firmware
